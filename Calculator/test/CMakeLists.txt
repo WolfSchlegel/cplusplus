@@ -1,0 +1,4 @@
+project(calculator_test)
+
+add_executable(calculator_tests calculator_test.cpp calculator_test.h)
+target_link_libraries(calculator_tests PRIVATE unity calculator_lib)
